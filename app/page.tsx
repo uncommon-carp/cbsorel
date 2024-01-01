@@ -20,10 +20,10 @@ export default function Home() {
           <p className="pt-2">Full Stack | TypeScript | React | GraphQL</p>
           <div className="mt-4">
             <Link href="/portfolio" className="mr-4 link-primary">
-              See My Work &gt;
+              Work &gt;
             </Link>
             <Link href="/portfolio" className="link-primary">
-              Contact Me &gt;
+              Contact &gt;
             </Link>
           </div>
           <div className="flex flex-row-reverse mt-5">
