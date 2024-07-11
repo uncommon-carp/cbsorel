@@ -22,7 +22,7 @@ export default function Home() {
             <Link href="/portfolio" className="mr-4 link-primary">
               Work &gt;
             </Link>
-            <Link href="/portfolio" className="link-primary">
+            <Link href="/contact" className="link-primary">
               Contact &gt;
             </Link>
           </div>
