@@ -6,10 +6,9 @@ export default function Portfolio() {
       <div className="flex flex-row w-3/5 my-auto flex-wrap">
         <Card
           title="FIPS API"
-          thumb=""
-          url="https://fips-code-api.herokuapp.com"
+          thumb="https://imgur.com/a/XU4w76x"
+          url="https://fips-api-3c3925ce6a80.herokuapp.com/docs"
         />
-        <Card title="Pescador" thumb="" url="" />
       </div>
     </main>
   );
