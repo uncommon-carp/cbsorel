@@ -1,14 +1,26 @@
-import Card from "./card";
+import ProjectCard from "./ProjectCard";
+
+const projects = [
+  {
+    title: "FIPS API 2.0",
+    description:
+      "A REST API providing FIPS County Codes and other information.",
+    thumb: "https://imgur.com/a/XU4w76x",
+    liveUrl: "https://fips.cbsorel.com",
+    repoUrl: "https://github.com/uncommon-carp/fips-2.0",
+    techStack: ["Next.js", "Lambda", "DynamoDB", "Serverless"],
+  },
+  // Add more projects here
+];
 
 export default function Portfolio() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
-      <div className="flex flex-row w-3/5 my-auto flex-wrap">
-        <Card
-          title="FIPS API"
-          thumb="https://imgur.com/a/XU4w76x"
-          url="https://fips-api-3c3925ce6a80.herokuapp.com/docs"
-        />
+    <main className="flex min-h-screen flex-col items-center py-12">
+      <h1 className="text-4xl font-bold mb-6">Projects</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-4/5">
+        {projects.map((project, index) => (
+          <ProjectCard key={index} {...project} />
+        ))}
       </div>
     </main>
   );
