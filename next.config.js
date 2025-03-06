@@ -5,7 +5,6 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "imgur.com",
-        pathname: "/a/XU4w76x",
       },
     ],
   },

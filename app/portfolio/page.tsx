@@ -1,11 +1,12 @@
 import ProjectCard from "./ProjectCard";
+import fips from "../../public/fips.png";
 
 const projects = [
   {
     title: "FIPS API 2.0",
     description:
       "A REST API providing FIPS County Codes and other information.",
-    thumb: "https://imgur.com/a/XU4w76x",
+    thumb: fips,
     liveUrl: "https://fips.cbsorel.com",
     repoUrl: "https://github.com/uncommon-carp/fips-2.0",
     techStack: ["Next.js", "Lambda", "DynamoDB", "Serverless"],
